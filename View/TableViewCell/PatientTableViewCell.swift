@@ -143,8 +143,6 @@ class PatientTableViewCell: UITableViewCell {
         totalStack.addArrangedSubview(profileStack)
         totalStack.addArrangedSubview(addressDetailLbl)
         totalStack.addArrangedSubview(phoneDetailLbl)
-        
-        totalStack.backgroundColor = .green.withAlphaComponent(0.5)
         totalStack.layer.borderColor = UIColor.black.cgColor
         totalStack.layer.cornerRadius = 10
         totalStack.layer.borderWidth = 1

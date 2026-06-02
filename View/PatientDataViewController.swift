@@ -55,7 +55,7 @@ class PatientDataViewController: UIViewController{
         title = "Patient Data"
         view.addSubview(tableView)
         view.addSubview(textField)
-
+        view.backgroundColor = .white
         tableView.separatorStyle = .none
         
         tableView.register(PatientTableViewCell.self, forCellReuseIdentifier: PatientTableViewCell.identifier)
